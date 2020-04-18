@@ -1,0 +1,66 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - challenge
+  - request
+  - inform
+
+entities:
+  - name
+  - location
+  - flavor
+  - size
+  - drink 
+
+forms:
+  - sales_pizza
+
+slots:
+  u_name:
+    auto_fill: false
+    type: unfeaturized
+  u_location:
+    auto_fill: false
+    type: unfeaturized
+  u_flavor:
+    auto_fill: false
+    type: unfeaturized
+  u_size:
+    auto_fill: false
+    type: unfeaturized
+  u_drink:
+    auto_fill: false
+    type: unfeaturized
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_iamarobot:
+  - text: "I am a robot"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_ask_u_name:
+    - text: "to continue i need to know your name"
+  
+  utter_ask_u_location:
+    - text: "Where would you like to receive your pizza"
+
+  utter_ask_u_flavor:
+    - text: "and the flavor?"
+
+  utter_ask_u_size:
+    - text: "what size?"
+
+  utter_ask_u_drink:
+    - text: "something to drink?"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

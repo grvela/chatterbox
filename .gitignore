@@ -1,0 +1,5 @@
+chatterbox/models
+chatterbox/tests
+__pycache__/
+.vscode/
+ada/
