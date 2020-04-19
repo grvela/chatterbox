@@ -16,7 +16,6 @@
 - Tchau
 - Até mais
 - Bye
-- obrigado
 
 ## intent: affirm
 - Sim
@@ -67,6 +66,10 @@
 - E pra beber?
 - E pra tomar?
 
+## intent:chichat
+- Como você ta?
+- Ta tudo bem?
+
 ## intent: prices
 - Qual o preço da pizza?
 - E qual o preço?
@@ -75,8 +78,10 @@
 - Quanto custa?
 - E o preço?
 
+
 ## intent: promotions
 - Tem promoção?
+- Qual é a novidade?
 - Qual a promoção dessa semana?
 - Tem desconto?
 - E o desconto?
@@ -92,19 +97,58 @@
 - Queria pedir uma pizza
 
 ## intent: inform 
-- Meu nome é [Rodrigo](name)
+- Me chama de [gabi](name)
+- Meu nome é [rodrigo](name)
+- Sou o [andevaldo](name)
+- Sou a [maria](name)
 - [Gabrielly](name)
-- [Orlando](name)
+- [Orlando Souza](name)
+- [Pedro Augusto Guimarães](name)
+- [Octavio Henrique Sampaio de Olivença Bragães](name)
 - Eu vivo na rua [tapajós](location)
+- Eu moro na [Grande Circular](location)
+- Minha rua é no [Centro](location)
+- Minha casa é na[Vivenda dos Palmares](location)
+- na [rua palmares da fazenda](location)
+- na [rua euripedes](location)
+- [rua jacurutu](location)
+- [rua proença de souza](location)
+- [Condomínio Villa Suiça](location)
+- [Residencial Leblon](location)
+- [Conjunto Parque da Tijuca](location)
 - rua [rio negro](location)
-- na rua [amapá](location) street
+- na rua [amapá](location) 
+- Quero uma de [Mussarela](flavor)
+- Gostaria de [Atum](flavor)
+- Manda pra mim a [Portuguesa](flavor)
+- Coloca ai a [Calabresa](flavor)
+- Quero a de [Quatro queijos](flavor)
+- [Mussarela](flavor)
+- [Quatro queijos](flavor)
 - Eu quero uma pizza de [mussarela](flavor)
 - Eu gostaria de uma pizza de [portuguesa](flavor) 
 - Uma pizza de [atum](flavor)
+- Me de uma [pequena](size)
+- Manda ai uma [média](size)
+- Quero uma [grande](size)
+- Quero uma pizza [média](size)
 - Uma pizza [média](size)
 - Uma pizza [grande](size) 
 - Uma pizza [pequena](size)
+- Me veja uma [fanta](drink)
 - Eu quero uma [coca](drink)
+- Pra beber uma [fanta](drink)
+- Uma [Coca](drink)
+- Vou de [Pepsi](drink)
+- Me dê um [Guarána](drink)
+- [Pepsi](drink)
+- [Guarána](drink)
+- [Coca Cola](drink)
 - Eu gostaria de uma [pepsi](drink)
 - [Guaraná](drink)
 - Eu quero uma pizza [pequena](size) de [mussarela](flavor) com [pepsi](drink) 
+- Vou querer uma pizza [média](size_pizza) de [nutella](flavor_pizza) com [coca cola](drink_pizza)
+- Vou querer uma pizza de [nutella](flavor_pizza) [média](size_pizza) com [coca cola](drink_pizza)
+- pizza de [nutella](flavor_pizza) [média](size_pizza) com [guarána](drink_pizza)
+
+

@@ -40,51 +40,82 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Opa, tudo bom?"
-
-  utter_iamarobot:
-  - text: "I am a robot"
+  - text: "Seja bem-vindo(a) ao **Senhor das Pizzas**. O que vai pedir hoje?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Muito obrigado por lembrar da gente, sempre que sentir vontade de comer a melhor pizza da cidade. Estamos por aqui, volte logo!"
+
+  utter_challenge:
+  - text: "haha muito bem, como adivinhou? Fui feita pra te ajudar a escolher a melhor pizza"
 
   utter_pizzas:
-    - text: "Veja só, esse é o nosso cardápio:\n Tradicionais: Mussarela, Atum, Portuguesa,\
-      \ Calabresa, Quatro queijos\n Especiais: Banana, Nutella, Queijo cheddar, Margarita\n\
-      \n Tamanhos:\n P: Pizza pequena: R$ 15,00.\n M: Pizza média: R$ 20,00.\n G:\
-      \ Pizza grande: R$ 27,00.\n\n Nos também temos bebidas:\n C: Coca-cola 2L: R$\
-      \ 8,00.\n PS: Pepsi 2L: R$ 7,00.\n GR: Guarána 1.5L: R$ 6,00"
+  - text: "Veja só, esse é o nosso cardápio:\n
+          Tradicionais: \n
+          Mussarela -> tomate e cebola \n 
+          Atum -> tomate, cebola, ovo, azeitona e atum\n
+          Portuguesa -> tomate, cebola, ovo, azeitona e presunto\n
+          Calabresa -> cebola e calabresa\n
+          Quatro queijos -> mussarela, tradicional, branco, parmesão e cebola \n
+          Especiais:\n
+          Banana -> queijo tradicional e banana\n
+          Queijo Cheddar -> queijo cheddar e tomate\n
+          Nutella -> nutella\n
+          Margarita -> queijo tradicional, tomate e louro\n
+          Preço das Tradicionais:\n
+          Pequena R$ 20,00\n
+          Média R$ 28,00\n
+          Grande R$ 36,00\n
+          Preço das Especiais:\n
+          Pequena R$ 24,00\n
+          Média R$ 32,00\n
+          Grande R$ 40,00\n
+          Bebidas:\n
+          2L Pepsi: R$ 8,00\n
+          2L Coca cola: R$ 10,00\n
+          2L Guaraná: R$ 7,00\n
+          1,5L Fanta: R$ 8,00\n"
+
 
   utter_drinks:
-    - text:  "Nos também temos bebidas:\n C: Coca-cola 2L: R$\
-      \ 8,00.\n PS: Pepsi 2L: R$ 7,00.\n GR: Guarána 1.5L: R$ 6,00"
+  - text: "De bebidas nos temos:\n
+           2L Pepsi: R$ 8,00\n
+           2L Coca cola: R$ 10,00\n
+           2L Guaraná: R$ 7,00\n
+           1,5L Fanta: R$ 8,00\n"
+             
 
   utter_prices:
-    - text: "Tamanhos:\n P: Pizza pequena: R$ 15,00.\n M: Pizza média: R$ 20,00.\n G:\
-      \ Pizza grande: R$ 27,00.\n\n"
+  - text: "A gente montou tudo pra encaixar no seu bolso, dá uma olhada!
+          Preço das Tradicionais:\n
+          Pequena R$ 20,00\n
+          Média R$ 28,00\n
+          Grande R$ 36,00\n
+          Preço das Especiais:\n
+          Pequena R$ 24,00\n
+          Média R$ 32,00\n
+          Grande R$ 40,00\n"
 
   utter_promotions:
-    - text:  "Tudo bem, a gente pode fazer um desconto bem legal pra você. Mas é só dessa\
-      \ vez, viu?\n 2 Pizzas Médias + 1 Coca-Cola por R$ 40,00. O que acha?\n Ou se\
-      \ preferir: 2 Pizzas Grandes + 1 Guarána por R$ 54,00. Que tal?\n A gente também\
-      \ pode fazer 3 Pizzas pequenas por R$ 40,00. E aí, vai topar?"
+  - text: "Tudo bem, a gente pode fazer um desconto bem legal pra você. Mas é só dessa vez, viu?\n
+           2 Pizzas Médias + 1 Coca-Cola por R$ 40,00.\n
+           Ou se preferir: 2 Pizzas Grandes + 1 Guarána por R$ 54,00.\n 
+           A gente também pode fazer 3 Pizzas pequenas por R$ 40,00\n
+           E aí, vai topar?"
 
   utter_ask_u_name:
-    - text: "Antes de continuar eu preciso saber o seu nome"
+  - text: "Antes de continuar eu preciso saber o seu nome"
   
   utter_ask_u_location:
-    - text: "Onde gostaria que entregassemos a sua pizza?"
+  - text: "Onde gostaria que entregassemos a sua pizza?"
 
   utter_ask_u_flavor:
-    - text: "e o sabor?"
+  - text: "e o sabor, já decidiu?"
 
   utter_ask_u_size:
-    - text: "qual o tamanho?"
+  - text: "qual o tamanho?"
 
   utter_ask_u_drink:
-    - text: "algo pra beber?"
-
-
+  - text: "já sabe o que vai querer pra beber?"
 
 session_config:
   session_expiration_time: 60
