@@ -5,7 +5,7 @@
   - sales_pizza
   - form{"name": "sales_pizza"}
 * deny
-  - utter_iamarobot
+  - utter_drinks
   - sales_pizza
   - form{"name": null}
 * goodbye

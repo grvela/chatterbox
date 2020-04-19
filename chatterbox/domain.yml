@@ -4,6 +4,10 @@ intents:
   - affirm
   - deny
   - challenge
+  - pizzas
+  - drinks
+  - prices
+  - promotions
   - request
   - inform
 
@@ -36,7 +40,7 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Opa, tudo bom?"
 
   utter_iamarobot:
   - text: "I am a robot"
@@ -44,20 +48,41 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
+  utter_pizzas:
+    - text: "Veja só, esse é o nosso cardápio:\n Tradicionais: Mussarela, Atum, Portuguesa,\
+      \ Calabresa, Quatro queijos\n Especiais: Banana, Nutella, Queijo cheddar, Margarita\n\
+      \n Tamanhos:\n P: Pizza pequena: R$ 15,00.\n M: Pizza média: R$ 20,00.\n G:\
+      \ Pizza grande: R$ 27,00.\n\n Nos também temos bebidas:\n C: Coca-cola 2L: R$\
+      \ 8,00.\n PS: Pepsi 2L: R$ 7,00.\n GR: Guarána 1.5L: R$ 6,00"
+
+  utter_drinks:
+    - text:  "Nos também temos bebidas:\n C: Coca-cola 2L: R$\
+      \ 8,00.\n PS: Pepsi 2L: R$ 7,00.\n GR: Guarána 1.5L: R$ 6,00"
+
+  utter_prices:
+    - text: "Tamanhos:\n P: Pizza pequena: R$ 15,00.\n M: Pizza média: R$ 20,00.\n G:\
+      \ Pizza grande: R$ 27,00.\n\n"
+
+  utter_promotions:
+    - text:  "Tudo bem, a gente pode fazer um desconto bem legal pra você. Mas é só dessa\
+      \ vez, viu?\n 2 Pizzas Médias + 1 Coca-Cola por R$ 40,00. O que acha?\n Ou se\
+      \ preferir: 2 Pizzas Grandes + 1 Guarána por R$ 54,00. Que tal?\n A gente também\
+      \ pode fazer 3 Pizzas pequenas por R$ 40,00. E aí, vai topar?"
+
   utter_ask_u_name:
-    - text: "to continue i need to know your name"
+    - text: "Antes de continuar eu preciso saber o seu nome"
   
   utter_ask_u_location:
-    - text: "Where would you like to receive your pizza"
+    - text: "Onde gostaria que entregassemos a sua pizza?"
 
   utter_ask_u_flavor:
-    - text: "and the flavor?"
+    - text: "e o sabor?"
 
   utter_ask_u_size:
-    - text: "what size?"
+    - text: "qual o tamanho?"
 
   utter_ask_u_drink:
-    - text: "something to drink?"
+    - text: "algo pra beber?"
 
 
 
