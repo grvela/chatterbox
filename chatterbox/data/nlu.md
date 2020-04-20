@@ -148,7 +148,7 @@
 - [Guaraná](drink)
 - Eu quero uma pizza [pequena](size) de [mussarela](flavor) com [pepsi](drink) 
 - Vou querer uma pizza [média](size) de [nutella](flavor) com [coca cola](drink)
-- Vou querer uma pizza de [nutella](flavor) [média](size_pizza) com [coca cola](drink)
+- Vou querer uma pizza de [nutella](flavor) [média](size) com [coca cola](drink)
 - pizza de [nutella](flavor) [média](size) com [guarána](drink)
 
 
