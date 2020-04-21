@@ -3,7 +3,7 @@ from flask import redirect, flash, url_for
 import requests
 from web import app
 
-
+'''
 @app.route('/', methods = ['POST', 'GET'])
 def index():
     if request.method == 'GET':
@@ -12,3 +12,8 @@ def index():
         reponse = requests.post("http://localhost:5005/webhooks/rest/webhook", data= data, headers= headers)
         reponse = reponse.json()
         return make_response(jsonify(reponse), 200)
+'''
+
+@app.route('/')
+def index():
+    return render_template("index.html")
