@@ -66,8 +66,9 @@
 - E pra beber?
 - E pra tomar?
 
-## intent:chichat
+## intent: chichat
 - Como você ta?
+- Tudo bem?
 - Ta tudo bem?
 
 ## intent: prices
@@ -128,6 +129,10 @@
 - Eu quero uma pizza de [mussarela](flavor)
 - Eu gostaria de uma pizza de [portuguesa](flavor) 
 - Uma pizza de [atum](flavor)
+- [Banana](flavor)
+- [Queijo cheddar](flavor)
+- [Nutella](flavor)
+- [Margarita](flavor)
 - Me de uma [pequena](size)
 - Manda ai uma [média](size)
 - Quero uma [grande](size)

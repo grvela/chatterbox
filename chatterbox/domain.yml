@@ -4,6 +4,7 @@ intents:
   - affirm
   - deny
   - challenge
+  - chichat
   - pizzas
   - drinks
   - prices
@@ -40,67 +41,65 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Seja bem-vindo(a) ao **Senhor das Pizzas**. O que vai pedir hoje?"
+  - text: "Seja bem-vindo(a) ao **Senhor das Pizzas**. O que vai pedir?"
 
   utter_goodbye:
   - text: "Muito obrigado por lembrar da gente, sempre que sentir vontade de comer a melhor pizza da cidade. Estamos por aqui, volte logo!"
 
   utter_challenge:
-  - text: "haha muito bem, como adivinhou? Fui feita pra te ajudar a escolher a melhor pizza"
+    - text: "Muito bem, como adivinhou? Fui feito pra te ajudar a escolher a melhor pizza"
+
+  utter_chichat:
+    - text: "Eu só entendo coisas relacionadas a pizza. Sinto muito por isso"
 
   utter_pizzas:
-  - text: "Veja só, esse é o nosso cardápio:\n
-          Tradicionais: \n
-          Mussarela -> tomate e cebola \n 
-          Atum -> tomate, cebola, ovo, azeitona e atum\n
-          Portuguesa -> tomate, cebola, ovo, azeitona e presunto\n
-          Calabresa -> cebola e calabresa\n
-          Quatro queijos -> mussarela, tradicional, branco, parmesão e cebola \n
-          Especiais:\n
-          Banana -> queijo tradicional e banana\n
-          Queijo Cheddar -> queijo cheddar e tomate\n
-          Nutella -> nutella\n
-          Margarita -> queijo tradicional, tomate e louro\n
-          Preço das Tradicionais:\n
-          Pequena R$ 20,00\n
-          Média R$ 28,00\n
-          Grande R$ 36,00\n
-          Preço das Especiais:\n
-          Pequena R$ 24,00\n
-          Média R$ 32,00\n
-          Grande R$ 40,00\n
-          Bebidas:\n
-          2L Pepsi: R$ 8,00\n
-          2L Coca cola: R$ 10,00\n
-          2L Guaraná: R$ 7,00\n
-          1,5L Fanta: R$ 8,00\n"
-
+  - text: "Veja só, esse é o nosso cardápio:
+          Tradicionais:
+          Mussarela -> tomate e cebola  
+          Atum -> tomate, cebola, ovo, azeitona e atum
+          Portuguesa -> tomate, cebola, ovo, azeitona e presunto
+          Calabresa -> cebola e calabresa
+          Quatro queijos -> mussarela, tradicional, branco, parmesão e cebola 
+          Especiais:
+          Banana -> queijo tradicional e banana
+          Queijo Cheddar -> queijo cheddar e tomate
+          Nutella -> nutella
+          Margarita -> queijo tradicional, tomate e louro
+          Preço das Tradicionais:
+          Pequena R$ 20,00
+          Média R$ 28,00
+          Grande R$ 36,00
+          Preço das Especiais:
+          Pequena R$ 24,00
+          Média R$ 32,00
+          Grande R$ 40,00"
+        
 
   utter_drinks:
-  - text: "De bebidas nos temos:\n
-           2L Pepsi: R$ 8,00\n
-           2L Coca cola: R$ 10,00\n
-           2L Guaraná: R$ 7,00\n
-           1,5L Fanta: R$ 8,00\n"
+  - text: "De bebidas nos temos:
+           2L Pepsi: R$ 8,00
+           2L Coca cola: R$ 10,00
+           2L Guaraná: R$ 7,00
+           1,5L Fanta: R$ 8,00"
              
-
   utter_prices:
   - text: "A gente montou tudo pra encaixar no seu bolso, dá uma olhada!
-          Preço das Tradicionais:\n
-          Pequena R$ 20,00\n
-          Média R$ 28,00\n
-          Grande R$ 36,00\n
-          Preço das Especiais:\n
-          Pequena R$ 24,00\n
-          Média R$ 32,00\n
-          Grande R$ 40,00\n"
+          Preço das Tradicionais:
+          Pequena R$ 20,00
+          Média R$ 28,00
+          Grande R$ 36,00
+          Preço das Especiais:
+          Pequena R$ 24,00
+          Média R$ 32,00
+          Grande R$ 40,00"
 
   utter_promotions:
-  - text: "Tudo bem, a gente pode fazer um desconto bem legal pra você. Mas é só dessa vez, viu?\n
-           2 Pizzas Médias + 1 Coca-Cola por R$ 40,00.\n
-           Ou se preferir: 2 Pizzas Grandes + 1 Guarána por R$ 54,00.\n 
-           A gente também pode fazer 3 Pizzas pequenas por R$ 40,00\n
+  - text: "Tudo bem, a gente pode fazer um desconto bem legal pra você. Mas é só dessa vez, viu?
+           1° -> 2 Pizzas Médias + 1 Coca-Cola por R$ 40,00.
+           2° -> 2 Pizzas Grandes + 1 Guarána por R$ 54,00. 
+           3° -> 3 Pizzas pequenas por R$ 40,00
            E aí, vai topar?"
+
 
   utter_ask_u_name:
   - text: "Antes de continuar eu preciso saber o seu nome"
