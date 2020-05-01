@@ -1,0 +1,115 @@
+intents:
+  - greet
+  - goodbye
+  - challenge
+  - chichat
+  - pizzas
+  - drinks
+  - promotions
+  - request
+  - inform
+
+entities:
+  - name
+  - location
+  - flavor
+  - size
+  - drink 
+
+forms:
+  - sales_pizza
+
+slots:
+  u_name:
+    auto_fill: false
+    type: unfeaturized
+  u_location:
+    auto_fill: false
+    type: unfeaturized
+  u_flavor:
+    auto_fill: false
+    type: unfeaturized
+  u_size:
+    auto_fill: false
+    type: unfeaturized
+  u_drink:
+    auto_fill: false
+    type: unfeaturized
+
+responses:
+  utter_greet:
+  - text: "Olá, é sempre bom te ter por aqui. No que posso ajudar?"
+
+  utter_goodbye:
+  - text: "Agradecemos por lembrar da gente, volte logo!"
+
+  utter_challenge:
+    - text: "Por favor, não conte pra ninguém"
+
+  utter_chichat:
+    - text: " O que é estar bem? O bem é muito relativo, trata-se de uma questão de perspectiva.
+              Eu por exemplo sou incapaz de sentir emoções, apenas fome"
+
+  utter_pizzas:
+  - text: "Dá uma olhada no nosso cardápio:
+          
+          Tradicionais:
+          Mussarela -> tomate e cebola  
+          Atum -> tomate, cebola, ovo, azeitona e atum
+          Portuguesa -> tomate, cebola, ovo, azeitona e presunto
+          Calabresa -> cebola e calabresa
+          Quatro queijos -> mussarela, tradicional, branco, parmesão e cebola 
+          
+          Especiais:
+          Banana -> queijo tradicional e banana
+          Queijo Cheddar -> queijo cheddar e tomate
+          Nutella -> nutella
+          Margarita -> queijo tradicional, tomate e louro
+          
+          Preço das Tradicionais:
+          Pequena R$ 20,00
+          Média R$ 28,00
+          Grande R$ 36,00
+          
+          Preço das Especiais:
+          Pequena R$ 24,00
+          Média R$ 32,00
+          Grande R$ 40,00"
+        
+  utter_drinks:
+  - text: "É o que temos disponivel:
+           2L Pepsi: R$ 8,00
+           2L Coca cola: R$ 10,00
+           2L Guaraná: R$ 7,00
+           1,5L Fanta: R$ 8,00"
+             
+  utter_promotions:
+  - text: "Tudo bem, a gente pode fazer um desconto bem legal pra você. Mas é só dessa vez, viu?
+           1° -> 2 Pizzas Médias + 1 Coca-Cola por R$ 40,00.
+           2° -> 2 Pizzas Grandes + 1 Guarána por R$ 54,00. 
+           3° -> 3 Pizzas pequenas por R$ 40,00
+           Assim que decidir, insira o número da promoção escolhida"
+
+
+  utter_ask_u_name:
+  - text: "Pra gente poder continuar, eu preciso saber o seu nome"
+  
+  utter_ask_u_location:
+  - text: "Onde gostaria de receber sua pizza?"
+
+  utter_ask_u_flavor:
+  - text: "Qual pizza vai querer?"
+
+  utter_ask_u_size:
+  - text: "E o tamanho?"
+
+  utter_ask_u_drink:
+  - text: "E pra beber?"
+
+  utter_confirm: 
+  - text: "Enviando uma pizza de {u_flavor} {u_size} para {u_location}"
+
+
+session_config:
+  session_expiration_time: 10
+  carry_over_slots_to_new_session: true
