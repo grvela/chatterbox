@@ -87,7 +87,7 @@ rasa run actions
 No terminal dois:
 ```bash
 # chatterbox/chat
-rasa run actions
+rasa run 
 ```
 No terminal três:
 ```bash
